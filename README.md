@@ -26,29 +26,28 @@ It follows a client-server architecture:
 
 ## 📂 Project Structure  
 
-/ (root)
-│── backendmswd/              # Express + MongoDB backend
-│   ├── server.js             # Main server entry point
-│   ├── routes/               # API routes (pets, users, auth)
-│   ├── models/               # Mongoose models (Pet, User, Adoption)
-│   ├── controllers/          # Request handlers
-│   ├── config/               # Database & environment config
-│   ├── mailsenddemo.js       # Email sending demo (Nodemailer)
-│   └── package.json          # Backend dependencies
-│
-│── frontendmswd/             # React frontend
-│   ├── public/               # Static files (index.html, favicon)
-│   ├── src/                  # React source code
-│   │   ├── components/       # Reusable UI components
-│   │   ├── pages/            # Pages (Home, Adopt, Login, Profile)
-│   │   ├── App.js            # Main React component
-│   │   └── index.js          # Entry point
-│   └── package.json          # Frontend dependencies
-│
-│── README.md                 # Documentation
-│── .gitignore                # Git ignored files
+/ (root)  
+│── backendmswd/              # Express + MongoDB backend  
+│   ├── server.js             # Main server entry point  
+│   ├── routes/               # API routes (pets, users, auth)  
+│   ├── models/               # Mongoose models (Pet, User, Adoption)  
+│   ├── controllers/          # Request handlers  
+│   ├── config/               # Database & environment config  
+│   ├── mailsenddemo.js       # Email sending demo (Nodemailer)  
+│   └── package.json          # Backend dependencies  
+│  
+│── frontendmswd/             # React frontend  
+│   ├── public/               # Static files (index.html, favicon)  
+│   ├── src/                  # React source code  
+│   │   ├── components/       # Reusable UI components  
+│   │   ├── pages/            # Pages (Home, Adopt, Login, Profile)  
+│   │   ├── App.js            # Main React component  
+│   │   └── index.js          # Entry point  
+│   └── package.json          # Frontend dependencies  
+│  
+│── README.md                 # Documentation  
+│── .gitignore                # Git ignored files  
 
---- 
 
 ## ⚙️ Installation & Setup  
 
