@@ -2,18 +2,25 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div style={styles.container}>
-      <h2 style={styles.heading}>CONTACT DETAILS</h2>
-      <p style={styles.paragraph}>
-        Heyoo !! Pet lovers, you can contact for further details without any hesitation
-        <br />
-        You can contact us at:
-        <br />
-        Phone: <a href="tel:+91 6399789568">6399789568</a>
-        <br />
-        Email: <a href="For further clarifications mail to petspaw0516@gmail.com">petspaw0516@gmail.com</a>
-      </p>
-    </div>
+<div style={styles.container}>
+  <h2 style={styles.heading}>CONTACT DETAILS</h2>
+  <p style={styles.paragraph}>
+    "Hey Pet Parents! &  Pet lovers!", feel free to reach out for further details without any hesitation 🐾
+    <br /><br />
+    <strong>Name:</strong> Chaitanya Sivathmika Yalamandala <br />
+    <strong>University:</strong> KL University <br />
+    <strong>Phone:</strong> <a href="tel:+919988187444">+91 99881 87444</a> <br />
+    <strong>Email:</strong> 
+      <a href="mailto:petspaw0516@gmail.com">petspaw0516@gmail.com</a> <br/>
+      (Alternative: <a href="mailto:sivathmikayalamandala33@gmail.com">sivathmikayalamandala33@gmail.com</a>) <br />
+    <strong>Location:</strong> Guntur, Andhra Pradesh, India <br />
+    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/chaitanya-sivathmika-y-0b985124b/" target="_blank">linkedin.com/in/chaitanya-sivathmika-y</a> <br />
+    <strong>GitHub:</strong> <a href="https://github.com/chaitanyasivathmika19" target="_blank">github.com/chaitanyasivathmika19</a>
+    <br /><br />
+    <em>Happy to connect with fellow pet lovers! 🐕🐾</em>
+  </p>
+</div>
+
   );
 }
 
