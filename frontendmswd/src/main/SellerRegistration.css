@@ -1,0 +1,43 @@
+.registration-container {
+  width: 50%; /* Adjust as needed */
+  padding: 20px;
+  margin: 0 auto; /* Center container horizontally */
+  display: block; /* Ensures no float is affecting this */
+  background: #fff; /* Optional: adds background color */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds subtle shadow for depth */
+  border-radius: 8px; /* Optional: rounds corners */
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the children vertically within the form */
+}
+
+.registration-form div {
+  margin-bottom: 10px;
+  width: 100%; /* Ensure divs take full width of the form */
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form textarea,
+.registration-form select {
+  width: 100%; /* Adjusted to take full width of the div */
+  height: 35px; /* Uniform height for text inputs and selects */
+  padding: 0 10px; /* Padding inside the fields for better text alignment */
+  margin: 5px 0; /* Margin for spacing */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  border: 1px solid #ccc; /* Adds a border, customize color as needed */
+}
+
+.registration-form textarea {
+  height: 80px; /* Larger height for textarea to accommodate more text */
+}
+
+.registration-form label {
+  width: 100%; /* Labels take the full width of their container */
+  display: block; /* Ensures label is on a new line */
+  margin-bottom: 5px; /* Space between label and input */
+}
