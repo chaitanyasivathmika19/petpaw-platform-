@@ -1,5 +1,4 @@
-# MSWD Project – Clone  
-
+# Pet Adoption and Accessories Management System (MSWD Project) - MERN Stack Web Development Academic Project
 ## 📌 Overview  
 This repository contains both the **frontend** and **backend** of the MSWD project inside a single repo.  
 It follows a client-server architecture:  
